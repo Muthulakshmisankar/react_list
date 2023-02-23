@@ -1,0 +1,164 @@
+.grave_header {
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 2rem;
+            padding: 1rem;
+            width: 2rem;
+        }
+    }
+
+    ul {
+
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: flex;
+            padding: 1rem;
+            cursor: pointer;
+        }
+    }
+    .payment{
+        ul{
+            li{
+                padding: 0.5rem;
+                margin: 1rem;   
+                border-radius: 20rem;
+                &:hover{
+                background: rgb(75, 75, 75);
+                }
+                img{
+                    padding: 0 0.5rem;
+                }
+            }
+        }
+    }
+
+    .profile {
+        ul {
+            li {
+                padding: 0.5rem;
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 1.5rem;
+                }
+            }
+        }
+
+        .profile-name {
+            height: 3rem;
+            width: 3rem;
+            background: #007547;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 1rem;
+        }
+
+        .profile-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .username {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .role {
+            font-size: 0.7rem;
+            color: #fbfbfb;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}
+.grave_content{
+    .title{
+    color: #007547;
+    }
+    .content_header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .payments_search{
+        display: flex;
+    }
+    .filter{
+        background-color: #7e7d7d;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        margin: 0.5rem;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .payment{
+        background-color: #007547;
+        display: flex;
+        margin: 0.5rem;
+        justify-content: center;
+        color: #fff;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .ant-input{
+        width: 17rem;
+        margin: 0.5rem;
+    }
+.table_wrapper{
+    padding: 0 3rem;
+}
+.status{
+    background-color: black;
+    border-left: 8px solid orange;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 1rem;
+    margin: 0 3rem;
+    border-radius: 4px;
+}
+}
+
+.grave_footer{
+    display: flex;
+    width: 100%;
+    background: #bbb;
+    margin: 0;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: row;
+    ul{
+        margin: 0;padding: 0;
+        display: flex;
+        list-style: none;
+        li{
+            padding: 1rem;
+        }
+    }
+
+}

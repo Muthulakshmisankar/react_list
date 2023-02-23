@@ -78,44 +78,6 @@ export default function HomePage() {
           3 Payments have not yet been posted
         </div>
         <TableComponent data={items}></TableComponent>
-        {/* <List
-          items={items}
-          onItemClick={(item) => {
-            setSelectedItem(item);
-            setIsEditFormOpen(true);
-          }}
-          onItemDeleteClick={(item) => {
-            setSelectedItem(item);
-            setIsDeleteModalOpen(true);
-          }}
-        /> */}
-        {/* <button onClick={() => setIsCreateFormOpen(true)}>Add Item</button>
-        {isCreateFormOpen && (
-          <CreateForm
-            onSubmit={handleCreateFormSubmit}
-            onCancel={() => setIsCreateFormOpen(false)}
-          />
-        )} */}
-        {/* {isEditFormOpen && (
-        <EditForm
-          item={selectedItem}
-          onSubmit={handleEditFormSubmit}
-          onCancel={() => {
-            setSelectedItem(null);
-            setIsEditFormOpen(false);
-          }}
-        />
-      )} */}
-        {/* {isDeleteModalOpen && (
-          <DeleteModal
-            item={selectedItem}
-            onDelete={handleDeleteItem}
-            onCancel={() => {
-              setSelectedItem(null);
-              setIsDeleteModalOpen(false);
-            }}
-          />
-        )} */}
       </div>
     <Footer></Footer>
 

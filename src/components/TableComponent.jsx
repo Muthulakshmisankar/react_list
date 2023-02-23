@@ -83,7 +83,7 @@ function TableComponent({data}) {
           {hasSelected ? `Selected ${selectedRowKeys.length} items` : ''}
         </span>
       </div>
-      <Table rowSelection={rowSelection} columns={columns} dataSource={data} />
+      <Table  size="small" rowSelection={rowSelection} columns={columns} dataSource={data} />
     </div>
   );
 }

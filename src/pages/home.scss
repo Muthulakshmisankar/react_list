@@ -1,3 +1,16 @@
+body{
+    background-color: #f8f9fa;
+}
+
+:where(.css-dev-only-do-not-override-1km3mtt).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-1km3mtt).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-1km3mtt).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-1km3mtt).ant-table-wrapper tfoot>tr>td{
+    padding: 8px !important;
+}
+tr{
+    background-color: #f8f9fa;
+}
+.ant-table-wrapper table {
+    border-spacing: 0px 10px;  
+}
 .grave_header {
     height: 10vh;
     background-color: #000;
@@ -97,8 +110,10 @@
     }
     .content_header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        width: 92vw;
+        padding: 0 3rem;
     }
     .payments_search{
         display: flex;
@@ -154,7 +169,8 @@
 .grave_footer{
     display: flex;
     width: 100%;
-    background: #bbb;
+    background: #6c757d;
+    color: #fff;
     margin: 0;
     bottom: 0;
     display: flex;

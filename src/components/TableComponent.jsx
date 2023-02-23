@@ -10,6 +10,13 @@ const columns = [
   {
     title: 'Status',
     dataIndex: 'status',
+    render: (_, { status }) => (
+        <>
+                <div className='status_helper' style={{backgroundColor: status == 'Unposted' ? 'orange' : 'green'  }} >
+                {status.toUpperCase()}
+                </div>
+        </>
+      ),
   },
   {
     title: 'Date',

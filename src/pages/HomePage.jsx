@@ -76,6 +76,7 @@ export default function HomePage() {
         </div>
         <div className="status">
           3 Payments have not yet been posted
+          <img src="./grave/close.png" alt='close'></img>
         </div>
         <TableComponent data={items}></TableComponent>
       </div>

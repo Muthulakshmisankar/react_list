@@ -107,10 +107,15 @@
         background-color: #7e7d7d;
         display: flex;
         justify-content: center;
+        align-items: center;
         color: #fff;
         margin: 0.5rem;
         &:hover{
             color: #fff;
+        }
+        img{
+            height: 0.7rem;
+            padding: 0.2rem;
         }
     }
     .payment{
@@ -139,6 +144,10 @@
     padding: 1rem;
     margin: 0 3rem;
     border-radius: 4px;
+    img{
+        float: right;
+        height: 0.8rem;
+    }
 }
 }
 
@@ -152,6 +161,8 @@
     position: absolute;
     justify-content: space-around;
     flex-direction: row;
+    align-items: center;
+
     ul{
         margin: 0;padding: 0;
         display: flex;
@@ -161,4 +172,10 @@
         }
     }
 
+}
+.status_helper{
+    padding: 0 1.5rem;
+    display: flex;
+    width: 5rem;
+    border-radius: 2rem;
 }
